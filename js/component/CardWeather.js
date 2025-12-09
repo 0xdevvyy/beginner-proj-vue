@@ -4,12 +4,22 @@ export default {
     template:`
 
         <div class="flex flex-wrap gap-4 justify-center p-4">   
-            <weather-content ></weather-content>
+            <weather-content :content="weather"></weather-content>
         </div  
     `,
     data(){
         return {
-            Weather: []
+            weather: [],
         }
-    }
+    },
+
+    created(){
+        fetch('http://localhost:3000/Weather')
+            .then(res => res.json())
+            .then(data => {
+                this.weather = data
+            })
+    },
+
+
 }
