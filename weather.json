@@ -1,0 +1,36 @@
+{
+    "Weather":[
+
+        {
+            "id" : 1,
+            "city": "Cebu",
+            "condition": "Partly CLoudy",
+            "temperature": 21,
+            "humidity": "85"
+        },
+        {
+            "id" : 2,
+            "city": "Cebu",
+            "condition": "Partly CLoudy",
+            "temperature": 29,
+            "humidity": "60"
+        },
+        {
+            "id" : 3,
+            "city": "Cavite",
+            "condition": "Chance of Rain",
+            "temperature": 32,
+            "humidity": "90"
+        },
+        {
+            "id" : 4,
+            "city": "Rizal",
+            "condition": "Sunshine",
+            "temperature": 30,
+            "humidity": "60"
+        }
+
+        
+
+    ]
+}

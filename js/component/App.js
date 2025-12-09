@@ -4,6 +4,8 @@ export default {
     components: {Navigation, CardWeather},
     template: `
         <navigation></navigation>
-        <card-weather></card-weather>
+        <div class="mt-8">
+            <card-weather></card-weather>
+        </div>
     `
 }
