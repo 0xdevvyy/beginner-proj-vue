@@ -1,5 +1,7 @@
+import Navigation from "./Navigation.js"
 export default {
+    components: {Navigation},
     template: `
-        <h1> Hello World </h1>
+        <navigation></navigation>
     `
 }
